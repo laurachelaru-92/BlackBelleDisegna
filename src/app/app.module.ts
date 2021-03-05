@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { TvSeriesMoviesComponent } from './tv-series-movies/tv-series-movies.component';
 import { DrawingsComponent } from './drawings/drawings.component';
 
 @NgModule({
@@ -13,7 +12,6 @@ import { DrawingsComponent } from './drawings/drawings.component';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    TvSeriesMoviesComponent,
     DrawingsComponent
   ],
   imports: [
