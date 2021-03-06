@@ -1,0 +1,17 @@
+#footer-wrapper {
+    color: grey;
+    padding: .5rem 0;
+    box-shadow: 0 -1px 5px lightgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+        font-size: .6rem;
+        margin-right: .4rem;
+    }
+}

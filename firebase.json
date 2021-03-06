@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/BlackBelleDisegna",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

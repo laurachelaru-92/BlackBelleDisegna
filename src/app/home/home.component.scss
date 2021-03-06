@@ -1,16 +1,29 @@
 #home-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-
+    padding: 1rem;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+    column-gap: 0;
+    list-style: none;
+    
     .image-container {
-        width: 10rem;
-        height: 15rem;
         margin: 1rem;
-
+        font-size: 0;
+        display: inline-block;
+        border-radius: 10px;
+        overflow: hidden;
+        
         img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+            max-width: 100%;
+            height: auto;
         }
+    }
+
+    @media screen and (max-width: 768px) {
+        columns: 2;
+    }
+    
+    @media screen and (max-width: 500px) {
+        columns: 1;
     }
 }
