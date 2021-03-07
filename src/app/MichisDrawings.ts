@@ -1,6 +1,10 @@
 export const MichisDrawings = [
     {
-        url: "captainamerica.jpg",
+      url: "dadi.png",
+      category: "bw"
+    },
+    {
+        url: "captainamerica.png",
         category: "tv-series-movies"
       },
       {
@@ -12,23 +16,23 @@ export const MichisDrawings = [
         category: "tv-series-movies"
       },
       {
-        url: "flower.jpg",
+        url: "flower.png",
         category: "other"
       },
       {
-        url: "hands.jpg",
+        url: "hands.png",
         category: "bw"
       },
       {
-        url: "harrypotter.jpg",
+        url: "harrypotter.png",
         category: "tv-series-movies"
       },
       {
-        url: "sailormoon.jpg",
+        url: "sailormoon.png",
         category: "cartoons"
       },
       {
-        url: "parrot.jpg",
+        url: "parrot.png",
         category: "other"
       }
 ]

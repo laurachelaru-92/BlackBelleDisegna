@@ -4,6 +4,8 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background-color: #fff;
+    box-shadow: 0 1px 5px lightgrey;
 
     >* {
         margin-right: 2rem;
@@ -17,19 +19,17 @@ nav {
 
         img {
             width: 100%;
-            scale: 1.2;
-            position: relative;
-            top: .8rem;
         }
     }
 
     #navbar-filter-container {
+        font-size: 1.2rem;
 
         ul {
             list-style: none;
 
             li {
-                padding: .2rem 0;
+                padding: .1rem 0;
                 letter-spacing: .07rem;
                 cursor: pointer;
 
@@ -49,6 +49,8 @@ nav {
 
     h1 {
         font-size: 5rem;
+        flex-grow: 1;
+        text-align: center;
     }
 
     #small-menu {
@@ -82,28 +84,34 @@ nav {
         }
     }
 
-    @media screen and (max-width: 775px) {
+    @media screen and (max-width: 800px) {
         h1 {
             font-size: 3rem;
         }
     }
 
-    @media screen and (max-width: 775px) {
+    @media screen and (max-width: 700px) {
         h1 {
             display: none;
         }
     }
 
     @media screen and (max-width: 500px) {
-        padding: 1rem;
+        padding: .5rem 1rem;
 
         #navbar-logo-container {
             margin-right: 2rem;
+            width: 5rem;
+            height: 5rem;
         }
 
         #navbar-filter-container {
             margin: 0;
+            font-size: 1rem;
         }
+
+        // #navbar-filter-container ul li a {
+        // }
 
         #small-menu {
             display: block;

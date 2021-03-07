@@ -1,5 +1,16 @@
 #app-wrapper {
     position: relative;
     min-height: 100vh;
+    background-image: url("../assets/img/galaxy-bg.jpg");
+    background-size: cover;
 
+    main {
+        padding-bottom: 2rem;
+        height: 100%;
+    }
+
+    @media screen and (max-width: 500px) {
+        background-size: contain;
+        background-repeat: repeat;
+    }
 }
