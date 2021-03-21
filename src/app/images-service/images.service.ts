@@ -12,7 +12,13 @@ export class ImagesService {
   private images = new Subject<object[]>();
 
   setImages(str:string) : void{
-    let tempImages = MichisDrawings.filter(img => img.category === str);
+    let tempImages = [];
+    // MichisDrawings.filter(img => img.category === str);
+    MichisDrawings.forEach(img => {
+      if (img.category.includes(str)) {
+        tempImages.push(img);
+      }
+    })
     this.images.next(tempImages);
   }
 
